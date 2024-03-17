@@ -98,14 +98,13 @@ nav {
   font-size:150%; 
    padding: 200x; 
 
-   padding: 250px; /* Header içeriği etrafındaki boşluk */
-   
-   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Header'e hafif bir gölge ekler */
-
    
    background-image: url('');
  
-   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Başlık metni gölgelendirme */
+   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+
+   
+
 }
 
 h2 {
@@ -116,11 +115,16 @@ position:relative;
 
 ul {
   list-style-type: none; 
-  padding: 0; }
+  padding: 0; 
+  
+  
+  }
 
 li {
   padding: 200px 0; 
  
+
+  
   
 }
 
@@ -128,6 +132,8 @@ li {
 .highlight {
   font-weight: bold; 
   color: #000000; 
+
+
 }
 
 /*Ziyaret edilmiş linklerr*/
@@ -152,7 +158,8 @@ a:visited {
 .horizontal-list {
   list-style-type: none; 
   padding: 0; 
-  display: flex; 
+  display:flex; 
+ 
 }
 
 .horizontal-list li {
