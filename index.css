@@ -1,0 +1,162 @@
+body{
+
+  background-image: url('photos/photo.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.temizkal{
+  color: white;
+  font-size: 40px;
+  margin-left: 40px;
+  top: 0;
+  width: 250px;
+  margin-top: -30px;
+  text-align: right;
+}
+.signlog{
+  color: white;
+  float: right;
+  font-size: 20px;
+  margin-top: -92px;
+  width: 280px;
+  display: flex;
+}
+.log{
+  margin-left: 50px;
+  border-radius: 10px;
+  width: 90px;
+  text-align: center;
+  height: 30px;
+}
+.sign{
+  margin-left: 30px;
+  border-radius: 10px;
+  width: 90px;
+  text-align: center;
+  height: 30px;
+}
+.service-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.service-section1 {
+  overflow: hidden;
+  position:relative;
+  width: 300px;
+  height: 450px;
+  border-radius: 15px;
+  margin: 10px; /* Kenarlardan boşluk bırakma */
+  border: 1px solid black;
+  margin-top: -100px;
+  background-image: url('photos/beyaz2.jpg');
+  transition: transform 0.6s ease;
+}
+
+.service-section2 {
+  overflow: hidden;
+  background-image: url('photos/temizlik.jpg');
+  width: 250px;
+  height: 350px;
+  border-radius: 15px;
+  margin: 10px; /* Kenarlardan boşluk bırakma */
+  margin-top: -100px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.service-section3 {
+  overflow: hidden;
+  background-image: url('photos/beyaz.jpg');
+  width: 250px;
+  height: 350px;
+  border-radius: 15px;
+  margin: 10px; /* Kenarlardan boşluk bırakma */
+  margin-top: -100px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.service-section2 {
+  order: -1; /* service-section2'nin sıralamasını değiştir */
+}
+
+.service-section3 {
+  order: 1; /* service-section3'ün sıralamasını değiştir */
+}
+.service-section1:hover {
+  transform: scale(1.2); /* Büyüme efekti */
+}
+
+
+/*BURDAN SONRASI NAV ETİKETİ VE ALİ KODLARI */ 
+
+nav {
+  font-size:150%; 
+   padding: 200x; 
+
+   padding: 250px; /* Header içeriği etrafındaki boşluk */
+   
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Header'e hafif bir gölge ekler */
+
+   
+   background-image: url('');
+ 
+   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Başlık metni gölgelendirme */
+}
+
+h2 {
+  margin-top: 0;
+text-align: center;
+position:relative;
+}
+
+ul {
+  list-style-type: none; 
+  padding: 0; }
+
+li {
+  padding: 200px 0; 
+ 
+  
+}
+
+
+.highlight {
+  font-weight: bold; 
+  color: #000000; 
+}
+
+/*Ziyaret edilmiş linklerr*/
+
+
+a {
+  text-decoration: none; 
+  color: inherit; 
+}
+
+a:hover {
+  text-decoration: underline; /* ÖNEMLİ Fareyle dokununca altına çizgi ekliyor */
+}
+a:visited {
+  color: inherit; /* Ziyaret edilmiş linkleri yanı renkte durdurur */
+}
+
+
+/*listeleri yatay olarak sıralamaaa*/
+
+
+.horizontal-list {
+  list-style-type: none; 
+  padding: 0; 
+  display: flex; 
+}
+
+.horizontal-list li {
+  margin-right:190px; 
+  
+}
+/* BURASI NAV ETİKETİNİN BİTİŞİ */
