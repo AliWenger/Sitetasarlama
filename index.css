@@ -98,6 +98,7 @@ nav {
   font-size:150%; 
    padding: 200x; 
 
+
    
    background-image: url('');
  
@@ -157,13 +158,13 @@ a:visited {
 
 .horizontal-list {
   list-style-type: none; 
-  padding: 0; 
+  padding: 250px; 
   display:flex; 
  
 }
 
 .horizontal-list li {
-  margin-right:190px; 
+  margin-right:161px; 
   
 }
 /* BURASI NAV ETİKETİNİN BİTİŞİ */
