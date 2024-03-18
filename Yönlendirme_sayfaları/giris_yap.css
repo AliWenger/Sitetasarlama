@@ -26,25 +26,25 @@ body {
   
   input[type="text"],
   input[type="password"] {
-    width: calc(100% - 10px); /* Input alanının genişliğini belirler */
-    padding: 8px; /* Input alanının iç boşluğunu belirler */
-    margin-top: 7px; /* Input alanlarının üst boşluğunu belirler */
-    border: 1px solid #ccc; /* Input alanı kenarlığını belirler */
-    border-radius: 3px; /* Input alanı kenar yumuşatmasını belirler */
+    width: calc(100% - 10px); 
+    padding: 8px; 
+    margin-top: 7px; 
+    border: 1px solid #ccc; 
+    border-radius: 3px; 
   }
   
   .giris-butonu {
-    width: 100%; /* Buton genişliğini belirler */
-    padding: 10px; /* Buton iç boşluğunu belirler */
-    font-size: 16px; /* Yazı boyutunu belirler */
-    background-color: #1d201d; /* Arkaplan rengini belirler */
-    color: white; /* Yazı rengini belirler */
-    border: none; /* Kenarlığı kaldırır */
-    border-radius: 5px; /* Kenar yumuşatma */
-    cursor: pointer; /* Fare imleci türünü belirler */
+    width: 100%; 
+    padding: 10px; 
+    font-size: 16px;
+    background-color: #1d201d; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
   }
   
   .giris-butonu:hover {
-    background-color: #3f413f; /* Fare üzerine gelindiğinde arkaplan rengini değiştirir */
+    background-color: #3f413f; 
   }
   
