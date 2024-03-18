@@ -1,13 +1,17 @@
 body {
+ background-image: url('../photos/photo.jpg');/*bir üst dizine çıkmamız lazım ondan dolayı ../ kullanılır*/
     font-family: Arial, sans-serif; 
   }
   
-  .a {
+  .kutu {
+
+
     text-align: center; 
     margin-top: 250px; 
   }
   
   .giris-form {
+    background-image: url('../photos/beyaz.jpg');
     width: 400px; 
     margin: 0 auto; 
     padding: 20px; 
