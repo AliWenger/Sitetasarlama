@@ -51,4 +51,17 @@ body {
   .giris-butonu:hover {
     background-color: #3f413f; 
   }
+
+  .forgot-password {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .forgot-password:hover {
+    color: #666;
+  }
+  
   
